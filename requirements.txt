@@ -1,0 +1,7 @@
+google-adk
+asyncio
+python-dotenv
+google-genai
+langchain-community
+langchain-core
+pypdf
