@@ -21,10 +21,10 @@ the output of analyze_agent.
 are listed in requirements.txt.
 3. Create a .env file in root directory of your project and add following environment
 variables:
-GOOGLE_API_KEY="..." //set up here https://aistudio.google.com/app/api-keys
-GOOGLE_GENAI_USE_VERTEXAI=FALSE
-CV_FILE_PATH="..." // full path to the CV file in pdf format
-PREFERRED_LOCATION="..." // location for job search
+--- GOOGLE_API_KEY="..." //set up here https://aistudio.google.com/app/api-keys
+--- GOOGLE_GENAI_USE_VERTEXAI=FALSE 
+--- CV_FILE_PATH="..." // full path to the CV file in pdf format
+--- PREFERRED_LOCATION="..." // location for job search
 4. Run the script using Google ADK Web UI with the following command 'adk web --port 8000'
 and selecting hr_agent in the web interface. In this case provide the path to the CV file
 and desired location in the chat with the LLM.
